@@ -1,0 +1,231 @@
+{
+  "contractName": "Socionet",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "version",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"version\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/kylechin/socionet/contracts/Socionet.sol\":\"Socionet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/kylechin/socionet/contracts/Socionet.sol\":{\"keccak256\":\"0x3ef1aa4c350f7e647dd5580b06c019c0168749fc0dfd4ad04984bce5f613abd6\",\"urls\":[\"bzz-raw://80d5ccc6fe2c60919b57519efda3503a85fbe2f21455d7beec14f8e15b37eb5e\",\"dweb:/ipfs/QmVxinVqHU2AqGK7kQkuWt5BNWhenWCMWSeLWgnrbiR3uu\"]}},\"version\":1}",
+  "bytecode": "0x60806040526001600055348015601457600080fd5b506084806100236000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806354fd4d5014602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820cc3e93fd8fe3494b88f2418340e1c45e35bce638c78e1c0b4f3e9a896877d81c64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806354fd4d5014602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820cc3e93fd8fe3494b88f2418340e1c45e35bce638c78e1c0b4f3e9a896877d81c64736f6c63430005100032",
+  "sourceMap": "66:48:1:-;;;110:1;88:23;;66:48;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:48:1;;;;;;;",
+  "deployedSourceMap": "66:48:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:48:1;;;;;;;;;;;;;;;;;;;88:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Socionet {\n  uint public version = 1;\n}",
+  "sourcePath": "/Users/kylechin/socionet/contracts/Socionet.sol",
+  "ast": {
+    "absolutePath": "/Users/kylechin/socionet/contracts/Socionet.sol",
+    "exportedSymbols": {
+      "Socionet": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "Socionet",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "version",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "88:23:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "88:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "31",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "110:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_1_by_1",
+                "typeString": "int_const 1"
+              },
+              "value": "1"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "66:48:1"
+      }
+    ],
+    "src": "32:82:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/kylechin/socionet/contracts/Socionet.sol",
+      "exportedSymbols": {
+        "Socionet": [
+          38
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            38
+          ],
+          "name": "Socionet",
+          "scope": 39
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "version",
+              "scope": 38,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 35,
+                "name": "ElementaryTypeName",
+                "src": "88:4:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "31",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 1",
+                  "value": "1"
+                },
+                "id": 36,
+                "name": "Literal",
+                "src": "110:1:1"
+              }
+            ],
+            "id": 37,
+            "name": "VariableDeclaration",
+            "src": "88:23:1"
+          }
+        ],
+        "id": 38,
+        "name": "ContractDefinition",
+        "src": "66:48:1"
+      }
+    ],
+    "id": 39,
+    "name": "SourceUnit",
+    "src": "32:82:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5a5A0bE2a608Cffe8b625094aA9966d2283aA500",
+      "transactionHash": "0xcc90d51df77287e5be638b7a64e6efb25e3d8db9fe1514a3c6cf9a9db1b5d106"
+    }
+  },
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-26T22:18:46.409Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

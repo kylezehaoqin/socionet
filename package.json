@@ -1,0 +1,27 @@
+{
+  "name": "socionet",
+  "author": "qinnkkyle@gmail.com",
+  "description": "An annonymous messenger blockchain application",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "popper": "^1.0.1",
+    "truffle": "^5.1.63",
+    "truffle-contract": "4.0.31"
+  }
+}
